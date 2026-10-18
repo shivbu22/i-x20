@@ -1,0 +1,119 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.6.2
+2 info using node@v25.3.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\ahiva\Documents\Codex\2026-08-29\i-x20\.npmrc
+5 silly config load:file:C:\Users\ahiva\.npmrc
+6 silly config load:file:C:\Users\ahiva\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install"
+9 verbose logfile logs-max:10 dir:C:\Users\ahiva\Documents\Codex\2026-08-29\i-x20\work\npm-cache\_logs\2026-08-29T16_50_14_269Z-
+10 verbose logfile C:\Users\ahiva\Documents\Codex\2026-08-29\i-x20\work\npm-cache\_logs\2026-08-29T16_50_14_269Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly idealTree buildDeps
+14 silly fetch manifest @vitejs/plugin-react@latest
+15 silly packumentCache full:https://registry.npmjs.org/@vitejs%2fplugin-react cache-miss
+16 http fetch GET https://registry.npmjs.org/@vitejs%2fplugin-react attempt 1 failed with EACCES
+17 http fetch GET https://registry.npmjs.org/@vitejs%2fplugin-react attempt 2 failed with EACCES
+18 http fetch GET https://registry.npmjs.org/@vitejs%2fplugin-react attempt 3 failed with EACCES
+19 silly fetch manifest gsap@latest
+20 silly packumentCache full:https://registry.npmjs.org/gsap cache-miss
+21 http fetch GET https://registry.npmjs.org/gsap attempt 1 failed with EACCES
+22 http fetch GET https://registry.npmjs.org/gsap attempt 2 failed with EACCES
+23 http fetch GET https://registry.npmjs.org/gsap attempt 3 failed with EACCES
+24 silly fetch manifest react@latest
+25 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+26 http fetch GET https://registry.npmjs.org/react attempt 1 failed with EACCES
+27 http fetch GET https://registry.npmjs.org/react attempt 2 failed with EACCES
+28 http fetch GET https://registry.npmjs.org/react attempt 3 failed with EACCES
+29 silly fetch manifest react-dom@latest
+30 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+31 http fetch GET https://registry.npmjs.org/react-dom attempt 1 failed with EACCES
+32 http fetch GET https://registry.npmjs.org/react-dom attempt 2 failed with EACCES
+33 http fetch GET https://registry.npmjs.org/react-dom attempt 3 failed with EACCES
+34 silly fetch manifest react-router-dom@latest
+35 silly packumentCache full:https://registry.npmjs.org/react-router-dom cache-miss
+36 http fetch GET https://registry.npmjs.org/react-router-dom attempt 1 failed with EACCES
+37 http fetch GET https://registry.npmjs.org/react-router-dom attempt 2 failed with EACCES
+38 http fetch GET https://registry.npmjs.org/react-router-dom attempt 3 failed with ENOTFOUND
+39 silly fetch manifest three@latest
+40 silly packumentCache full:https://registry.npmjs.org/three cache-miss
+41 http fetch GET https://registry.npmjs.org/three attempt 1 failed with ENOTFOUND
+42 http fetch GET https://registry.npmjs.org/three attempt 2 failed with ENOENT
+43 http fetch GET https://registry.npmjs.org/three attempt 3 failed with ENOENT
+44 silly fetch manifest typescript@latest
+45 silly packumentCache full:https://registry.npmjs.org/typescript cache-miss
+46 http fetch GET https://registry.npmjs.org/typescript attempt 1 failed with ENOENT
+47 http fetch GET https://registry.npmjs.org/typescript attempt 2 failed with EACCES
+48 http fetch GET https://registry.npmjs.org/typescript attempt 3 failed with EACCES
+49 silly fetch manifest vite@latest
+50 silly packumentCache full:https://registry.npmjs.org/vite cache-miss
+51 http fetch GET https://registry.npmjs.org/vite attempt 1 failed with EACCES
+52 http fetch GET https://registry.npmjs.org/vite attempt 2 failed with EACCES
+53 http fetch GET https://registry.npmjs.org/vite attempt 3 failed with EACCES
+54 silly fetch manifest @types/react@latest
+55 silly packumentCache full:https://registry.npmjs.org/@types%2freact cache-miss
+56 http fetch GET https://registry.npmjs.org/@types%2freact attempt 1 failed with EACCES
+57 http fetch GET https://registry.npmjs.org/@types%2freact attempt 2 failed with EACCES
+58 http fetch GET https://registry.npmjs.org/@types%2freact attempt 3 failed with EACCES
+59 silly fetch manifest @types/react-dom@latest
+60 silly packumentCache full:https://registry.npmjs.org/@types%2freact-dom cache-miss
+61 http fetch GET https://registry.npmjs.org/@types%2freact-dom attempt 1 failed with EACCES
+62 http fetch GET https://registry.npmjs.org/@types%2freact-dom attempt 2 failed with EACCES
+63 http fetch GET https://registry.npmjs.org/@types%2freact-dom attempt 3 failed with EACCES
+64 silly fetch manifest @types/three@latest
+65 silly packumentCache full:https://registry.npmjs.org/@types%2fthree cache-miss
+66 http fetch GET https://registry.npmjs.org/@types%2fthree attempt 1 failed with EACCES
+67 http fetch GET https://registry.npmjs.org/@types%2fthree attempt 2 failed with EACCES
+68 http fetch GET https://registry.npmjs.org/@types%2fthree attempt 3 failed with EACCES
+69 silly placeDep ROOT @types/react@ OK for: shiv-portfolio@1.0.0 want: latest
+70 silly placeDep ROOT @types/react-dom@ OK for: shiv-portfolio@1.0.0 want: latest
+71 silly placeDep ROOT @types/three@ OK for: shiv-portfolio@1.0.0 want: latest
+72 silly placeDep ROOT @vitejs/plugin-react@ OK for: shiv-portfolio@1.0.0 want: latest
+73 silly placeDep ROOT gsap@ OK for: shiv-portfolio@1.0.0 want: latest
+74 silly placeDep ROOT react@ OK for: shiv-portfolio@1.0.0 want: latest
+75 silly placeDep ROOT react-dom@ OK for: shiv-portfolio@1.0.0 want: latest
+76 silly placeDep ROOT react-router-dom@ OK for: shiv-portfolio@1.0.0 want: latest
+77 silly placeDep ROOT three@ OK for: shiv-portfolio@1.0.0 want: latest
+78 silly placeDep ROOT typescript@ OK for: shiv-portfolio@1.0.0 want: latest
+79 silly placeDep ROOT vite@ OK for: shiv-portfolio@1.0.0 want: latest
+80 verbose type system
+81 verbose stack FetchError: request to https://registry.npmjs.org/@types%2freact failed, reason: 
+81 verbose stack     at ClientRequest.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\minipass-fetch\lib\index.js:130:14)
+81 verbose stack     at ClientRequest.emit (node:events:508:28)
+81 verbose stack     at emitErrorEvent (node:_http_client:108:11)
+81 verbose stack     at _destroy (node:_http_client:962:9)
+81 verbose stack     at onSocketNT (node:_http_client:982:5)
+81 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+82 error code EACCES
+83 error errno EACCES
+84 error FetchError: request to https://registry.npmjs.org/@types%2freact failed, reason: 
+84 error     at ClientRequest.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\minipass-fetch\lib\index.js:130:14)
+84 error     at ClientRequest.emit (node:events:508:28)
+84 error     at emitErrorEvent (node:_http_client:108:11)
+84 error     at _destroy (node:_http_client:962:9)
+84 error     at onSocketNT (node:_http_client:982:5)
+84 error     at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+84 error   code: 'EACCES',
+84 error   errno: 'EACCES',
+84 error   type: 'system',
+84 error   requiredBy: '.'
+84 error }
+85 error
+85 error The operation was rejected by your operating system.
+85 error It's possible that the file was already in use (by a text editor or antivirus),
+85 error or that you lack permissions to access it.
+85 error
+85 error If you believe this might be a permissions issue, please double-check the
+85 error permissions of the file and its containing directories, or try running
+85 error the command again as root/Administrator.
+86 silly unfinished npm timer reify 1788022214736
+87 silly unfinished npm timer reify:loadTrees 1788022214739
+88 verbose cwd C:\Users\ahiva\Documents\Codex\2026-08-29\i-x20
+89 verbose os Windows_NT 10.0.26200
+90 verbose node v25.3.0
+91 verbose npm  v11.6.2
+92 verbose exit 1
+93 verbose code 1
+94 error A complete log of this run can be found in: C:\Users\ahiva\Documents\Codex\2026-08-29\i-x20\work\npm-cache\_logs\2026-08-29T16_50_14_269Z-debug-0.log
